@@ -1,0 +1,60 @@
+.bannerBg{
+    background-image: url(../../../assets/images/BannerBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    height: calc(100vh - 114.27px);
+    &::before{
+        content: "";
+        background-color: var(--primaryClr);
+        opacity: 0.85;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: -1;
+    }
+    .react-datepicker__header{
+        background-color: var(--secondaryClr);
+       
+    }
+    .react-datepicker{
+        background-color: var(--secondaryClr);
+        *{
+            color: var(--whiteClr);
+        }
+    }
+    .react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected{
+ background-color: var(--primaryClr);
+    }
+    .react-datepicker__day:hover, .react-datepicker__month-text:hover, .react-datepicker__quarter-text:hover, .react-datepicker__year-text:hover{
+        background-color: var(--primaryClr);
+    }
+    .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle{
+        fill: var(--secondaryClr);
+        color: var(--secondaryClr);
+    }
+    .react-datepicker__tab-loop{
+position: absolute;
+    }
+}
+
+@media screen and (max-width: 1370px){
+    .bannerBg {
+        height: calc(100vh - 101.27px);
+    }
+}
+@media screen and (max-width: 1198.99px){
+    .bannerBg {
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 575.99px){
+    .bannerBg {
+        height: 100%;
+        padding: 100px 0;
+    }
+}

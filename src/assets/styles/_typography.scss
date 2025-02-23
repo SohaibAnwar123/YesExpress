@@ -1,0 +1,167 @@
+:root {
+    --primaryClr: #f0b913;
+    --secondaryClr: #333537;
+    --whiteClr: #ffffff;
+    --mainFont: "Asap", sans-serif;
+    --fs100: 100px;
+    --fs70: 70px;
+    --fs50: 50px;
+    --fs40: 40px;
+    --fs32: 32px;
+    --fs30: 30px;
+    --fs24: 24px;
+    --fs22: 22px;
+    --fs20: 20px;
+    --fs18: 18px;
+    --fs17: 17px;
+    --fs16: 16px;
+    --fs15: 15px;
+    --fs14: 14px;
+    --py100: 100px;
+    --pb100: 100px;
+    --pt100: 100px;
+}
+.py100{
+    padding-top: var(--py100);
+    padding-bottom: var(--py100);
+}
+.pt100{
+    padding-top: var(--pt100);
+}
+.pb100{
+    padding-bottom: var(--pb100);
+}
+.fs100{
+    font-size: var(--fs100);
+}
+.fs70{
+    font-size: var(--fs70);
+}
+.fs50{
+    font-size: var(--fs50);
+}
+.fs40{
+    font-size: var(--fs40);
+}
+.fs32{
+    font-size: var(--fs32);
+}
+.fs30{
+    font-size: var(--fs30);
+}
+.fs24{
+    font-size: var(--fs24);
+}
+.fs22{
+    font-size: var(--fs22);
+}
+.fs20{
+    font-size: var(--fs20);
+}
+.fs18{
+    font-size: var(--fs18);
+}
+.fs17{
+    font-size: var(--fs17);
+}
+.fs16{
+    font-size: var(--fs16);
+}
+.fs15{
+    font-size: var(--fs15);
+}
+.fs14{
+    font-size: var(--fs14);
+}
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h5,h6 {
+    font-weight: 400;
+}
+
+.fw600{
+    font-weight: 600 !important;
+}
+.primaryClr{
+    color: var(--primaryClr);
+}
+.primaryClrBg{
+    background-color: var(--primaryClr);
+}
+.secondaryClr{
+    color: var(--secondaryClr);
+}
+.secondaryBg{
+    background-color: var(--secondaryClr);
+}
+.whiteClr{
+    color: #ffffff;
+}
+.whiteClrBg{
+    background-color: #ffffff;
+}
+@media screen and (max-width: 1680px){
+    :root {
+        --fs70: 50px;
+        --fs50: 40px;
+        --fs40: 30px;
+    }
+}
+@media screen and (max-width: 1470px){
+    :root {
+        --fs18: 16px;
+    }
+}
+@media screen and (max-width: 1370px){
+    :root {
+        --fs70: 40px;
+        --fs50: 35px;
+        --fs32: 26px;
+        --fs30: 24px;
+        --fs24: 19px;
+        --fs22: 18px;
+        --fs20: 17px;
+        --py100: 80px;
+        --pb100: 80px;
+        --pt100: 80px;
+    }
+}
+@media screen and (max-width: 1198.99px){
+    :root {
+        --fs100: 70px;
+        --fs24: 17px;
+        --fs20: 16px;
+        --py100: 60px;
+        --pb100: 60px;
+        --pt100: 60px;
+    }
+}
+@media screen and (max-width: 991.98px){
+    :root {
+        --fs70: 36px;
+        --fs50: 30px;
+        --fs40: 26px;
+        --fs32: 22px;
+        --fs22: 16px;
+        --fs17: 15px;
+    }
+}
+@media screen and (max-width: 575.98px){
+    :root {
+        --fs70: 21px;
+        --fs50: 20px;
+        --fs32: 20px;
+        --fs30: 20px;
+        --fs20: 15px;
+        --fs18: 15px;
+        --py100: 40px;
+        --pb100: 40px;
+        --pt100: 40px;
+    }
+}
